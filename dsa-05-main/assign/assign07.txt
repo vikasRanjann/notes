@@ -1,0 +1,2 @@
+1. Implement delLast() for singly circular linked list.
+2. Do paperwork of addFirst() and addAtPos() for doubly linear list.

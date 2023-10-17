@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  user name = <input type="text" placeholder="user name here" id="username">
+  <button onclick="greetUser()">Greet User</button>
+  <div id="message"></div>
+
+  <script>
+
+    function greetUser() {
+      const username = document.getElementById('username').value
+      document.getElementById('message').innerHTML = 'Good evening, ' + username
+    }
+
+  </script>
+</body>
+
+</html>

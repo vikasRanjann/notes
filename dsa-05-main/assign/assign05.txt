@@ -1,0 +1,5 @@
+1. Implement stack using queue. Ensure that push() time complexity should be O(1).
+2. Implement queue using stack.
+3. Implement two stacks in same array efficiently.
+4. Solve rat-in-a-maze problem using backtracking.
+5. Implement addFirst() operation in Singly Linear Linked List.

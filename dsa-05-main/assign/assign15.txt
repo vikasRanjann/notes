@@ -1,0 +1,2 @@
+1. Draw recursion tree on paper for a fibonacci function.
+2. Draw recursion tree on paper for quick sort algorithm discussed.

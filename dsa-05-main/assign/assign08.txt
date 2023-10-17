@@ -1,0 +1,4 @@
+1. Implement singly circular linked list with tail pointer (i.e. address of last node) only. Analyse time complexity of addFirst(), addLast(), delFirst(), delLast().
+2. Create singly linear linked list of Employee objects.
+3. Sort singly linear list using bubble sort.
+4. Implement doubly circular list. Analyse time complexity of addFirst(), addLast(), delFirst(), delLast().

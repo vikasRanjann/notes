@@ -1,0 +1,2 @@
+create table user (id integer primary key auto_increment, firstname varchar(100), lastname varchar(100), email varchar(100), password varchar(100), mobile varchar(20));
+create table note (id integer primary key auto_increment, contents varchar(1000), userId integer, createdDate TIMESTAMP default CURRENT_TIMESTAMP, isPublic int(1) default 0);

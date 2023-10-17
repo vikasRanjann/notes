@@ -1,0 +1,2 @@
+1. Implement circular queue using counter method.
+2. Implement stack using array. Keep initial value of top as 0. Modify other operations accordingly.

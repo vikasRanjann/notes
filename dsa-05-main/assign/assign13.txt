@@ -1,0 +1,5 @@
+1. Delete a node in BST using recursion.
+2. Implement AVL tree. Refer code in C++ folder.
+3. Write a function to count the number of leaf nodes in the given binary tree.
+4. Write a function to check if given binary tree is binary search or not.
+5. Write a function to return level/depth of given node in a BST.

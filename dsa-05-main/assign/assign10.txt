@@ -1,0 +1,3 @@
+1. Implement hash table using open addressing with linear probing.
+2. Represent polynomial as linked list and solve it for given value of "x". (As discussed in linked list applications).
+ 

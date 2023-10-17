@@ -1,0 +1,5 @@
+1. Display all nodes on boundary in a BST.
+2. Implement Trie structure for storing and searching strings.
+3. Solve tower of hanoi problem.
+
+Hint: Refer codes in Java/day20 folders.

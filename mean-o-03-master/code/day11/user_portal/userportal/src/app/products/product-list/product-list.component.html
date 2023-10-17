@@ -1,0 +1,16 @@
+<h1 class="title">Products</h1>
+
+<div class="row">
+  <div class="col-md-3 product" *ngFor="let product of products">
+    <img src="http://localhost:3000/product/image/{{ product.image }}" alt="" />
+    <div class="title">{{ product.title }}</div>
+    <div class="price">Rs. {{ product.price }}</div>
+    <button
+      (click)="onAddToCart(product)"
+      style="margin-top: 10px"
+      class="btn btn-sm btn-success"
+    >
+      Add to cart
+    </button>
+  </div>
+</div>

@@ -1,0 +1,24 @@
+<h1 class="title">Orders</h1>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Date</th>
+      <th>Status</th>
+      <th>Total Amount</th>
+      <th># Product</th>
+      <th>Receipt</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let order of orders; let index = index">
+      <td>{{ index + 1 }}</td>
+      <td>{{ order.orderDate | date }}</td>
+      <td>{{ order.status }}</td>
+      <td>{{ order.totalAmount }}</td>
+      <td>{{ order.products.length }}</td>
+      <td><a target="_blank" [href]="order.payment.receipt">Receipt</a></td>
+    </tr>
+  </tbody>
+</table>

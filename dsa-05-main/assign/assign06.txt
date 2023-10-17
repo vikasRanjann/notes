@@ -1,0 +1,5 @@
+1. Implement addAtPos() and delAtPos() operations for Singly Linear Linked List using head and tail pointer.
+2. In singly linear list implement following operations.
+	a. find and delete a node.
+	b. insert a new node after a given node.
+	b. insert a new node before a given node.
